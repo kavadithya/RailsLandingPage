@@ -12,6 +12,9 @@ gem 'sdoc',                 '0.4.0', group: :doc
 gem 'tzinfo-data', platforms: [:mingw, :mswin]
 gem 'jquery-turbolinks'
 
+gem 'rest-firebase', :git => 'git://github.com/CodementorIO/rest-firebase.git',
+                     :submodules => true
+
 group :development, :test do
   gem 'sqlite3'
   # gem 'byebug',      '3.4.0'

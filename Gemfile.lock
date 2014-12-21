@@ -1,3 +1,15 @@
+GIT
+  remote: git://github.com/CodementorIO/rest-firebase.git
+  revision: 34ab739a9635319c4c7253800aa85e90d44e6b0e
+  submodules: true
+  specs:
+    rest-core (3.5.0)
+      httpclient
+      mime-types
+      timers (>= 4.0.1)
+    rest-firebase (1.0.0)
+      rest-core (>= 3.5.0)
+
 GEM
   remote: http://rubygems.org/
   specs:
@@ -50,6 +62,8 @@ GEM
     globalid (0.3.0)
       activesupport (>= 4.1.0)
     hike (1.2.3)
+    hitimes (1.2.2)
+    httpclient (2.5.3.3)
     i18n (0.7.0)
     jbuilder (2.2.3)
       activesupport (>= 3.0.0, < 5)
@@ -130,6 +144,8 @@ GEM
     thor (0.19.1)
     thread_safe (0.3.4)
     tilt (1.4.1)
+    timers (4.0.1)
+      hitimes
     turbolinks (2.3.0)
       coffee-rails
     tzinfo (1.2.2)
@@ -151,6 +167,7 @@ DEPENDENCIES
   pg (= 0.17.1)
   rails (= 4.2.0.rc3)
   rails_12factor (= 0.0.2)
+  rest-firebase!
   sass-rails (= 4.0.3)
   sdoc (= 0.4.0)
   sqlite3
