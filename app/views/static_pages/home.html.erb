@@ -1,11 +1,22 @@
-<h1>Sign up</h1>
 
+
+<div class="row">
+  <h1> Build your own Feedly-like app </h1>
+  <h2> Build your own Feedly-like app with custom feeds and distribute to your customers/readers. </h2>
+  <h2> You get to pick list of feeds available on the app. </h2>
+</div>
+    <%= image_tag '4.png' %></t></t></t></t></t></t></t></t></t></t></t></t>
+    <%= image_tag '5.png' %>
+
+
+</br></br></br>
+<h2>Get Notified!!</h2>
 <div class="row">
   <div class="span6 offset3">
     <%= form_tag(static_pages_update_path, :method=>'post', :multipart => true) do %>
      <p>
-       E-mail ID:<br />
-       <%= text_field_tag "email" %>
+       
+       <%= text_field_tag "email", "E-mail ID" %>
      </p>
      <p>
        Intend to use it for: <br />
