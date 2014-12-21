@@ -3,6 +3,9 @@ Rails.application.routes.draw do
 
   post 'static_pages/update'
 
+  root to: "static_pages#home"
+  
+
   # resources :static_pages
 
   # The priority is based upon order of creation: first created -> highest priority.
